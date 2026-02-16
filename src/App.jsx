@@ -88,12 +88,13 @@ export default function App() {
                     />
 
                     <br />
-    <>
+    
     <h1> Post Form</h1>
 
+    <button type="submit">Invia</button>
+
     
-     
-    </>
+   </form>
   )
 }
 
