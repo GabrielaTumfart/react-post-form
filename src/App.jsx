@@ -6,12 +6,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 export default function App() {
-  const [count, setCount] = useState(0)
+  const [formData, setFormData] = useState({
+    author: "",
+    title: "",
+    body: "",
+    public: false,
+  });
 
   return (
     <>
  
-      <h1>Vite + React</h1>
+      <h1> Post Form</h1>
      
     </>
   )
