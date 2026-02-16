@@ -30,9 +30,20 @@ export default function App() {
   };
 
   return (
+    <form onSubmit={handleSubmit}>
+      <h2>Crea un nuovo post</h2>
+
+      <label>Author:</label>
+      <input
+        type="text"
+        name="author"
+        value={formData.author}
+        onChange={handleChange}
+      />
     <>
- 
-      <h1> Post Form</h1>
+    <h1> Post Form</h1>
+
+    
      
     </>
   )
