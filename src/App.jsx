@@ -13,6 +13,22 @@ export default function App() {
     public: false,
   });
 
+
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    axios
+      .post("https://67c5b4f3351c081993fb1ab6.mockapi.io/api/posts", formData)
+      .then((res) => {
+        console.log("Richiesta inviata");
+        console.log("Risposta API:", res.data);
+      })
+      .catch((err) => {
+        console.log("Errore:", err);
+      });
+  };
+
   return (
     <>
  
