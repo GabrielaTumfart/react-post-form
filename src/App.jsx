@@ -40,6 +40,54 @@ export default function App() {
         value={formData.author}
         onChange={handleChange}
       />
+
+        <label>Author:</label>
+              <input
+                type="text"
+                name="author"
+                value={formData.author}
+                onChange={handleChange}
+              />
+
+              <br />
+
+              <label>Author:</label>
+                    <input
+                      type="text"
+                      name="author"
+                      value={formData.author}
+                      onChange={handleChange}
+                    />
+
+                    <br />
+
+                    <label>Author:</label>
+                    <input
+                      type="text"
+                      name="author"
+                      value={formData.author}
+                      onChange={handleChange}
+                    />
+
+                    <br />
+                    <label>Author:</label>
+                    <input
+                      type="text"
+                      name="author"
+                      value={formData.author}
+                      onChange={handleChange}
+                    />
+
+                    <br />
+                    <label>Author:</label>
+                    <input
+                      type="text"
+                      name="author"
+                      value={formData.author}
+                      onChange={handleChange}
+                    />
+
+                    <br />
     <>
     <h1> Post Form</h1>
 
