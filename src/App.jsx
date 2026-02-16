@@ -5,7 +5,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
+export default function App() {
   const [count, setCount] = useState(0)
 
   return (
@@ -17,4 +17,12 @@ function App() {
   )
 }
 
-export default App
+
+
+/*ho fatto una chiamata post e mi ha ritornato questo {
+    "title": "utilis sodalitas itaque",
+    "author": "Derrick Considine",
+    "body": "Civis villa acidus spectaculum autem dolorem vitae. Conspergo abscido conitor facilis thesis. Veniam demonstro terreo cubitum.",
+    "public": false,
+    "id": "118"
+}}*/
